@@ -24,6 +24,6 @@ export default function Header() {
                 </Link>
             </ul>
         </div>
-    </div>    
+    </div>     
   )
 }
