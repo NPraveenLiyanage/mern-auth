@@ -3,7 +3,7 @@ import bcryptjs from 'bcryptjs';
 
 export const signup = async (req, res, next) => {
     const { username, email, password } = req.body;
-    const hashedPassword = bcryptjs.hashSync(password, 10); //encrypted password(npm i bcryptjs)
+    const hashedPassword = bcryptjs.hashSync(password, 10); //encrypted password(npm i bccryptjs)
     const newUser = new User({ username, email, password: hashedPassword });
     try {
       await newUser.save();//wait untill recive the result
