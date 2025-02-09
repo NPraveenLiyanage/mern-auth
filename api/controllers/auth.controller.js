@@ -33,6 +33,6 @@ export const signup = async (req, res, next) => {
         .status(200)
         .json(rest);
     } catch (error) {
-      next(error);post
+      next(error);
     }
   }

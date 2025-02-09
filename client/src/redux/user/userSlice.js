@@ -1,4 +1,4 @@
-import {createSlice} from '@reduxjs/toolkit';
+import {createSlice} from '@reduxjs/toolkit';// install redux toolkit(npm install @reduxjs/toolkit react-redux)
 
 
 const initialState = {
